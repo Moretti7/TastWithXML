@@ -12,7 +12,7 @@
                                         <xs:element name="x" type="xs:decimal"/>
                                         <xs:element name="y" type="xs:decimal"/>
                                     </xs:sequence>
-                                    <xs:attribute name="date" type="xs:date"/>
+                                    <xs:attribute name="date" type="xs:string"/>
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>
