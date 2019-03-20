@@ -1,0 +1,6 @@
+<!ELEMENT Analyser (points)>
+        <!ELEMENT points (point)*>
+        <!ELEMENT point (x, y)>
+        <!ATTLIST point date CDATA #REQUIRED>
+        <!ELEMENT x (#PCDATA)>
+        <!ELEMENT y (#PCDATA)>

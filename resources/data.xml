@@ -1,4 +1,18 @@
-<Analyser>
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--<!DOCTYPE Analyser SYSTEM "resources\points.dtd">-->
+<!--<!DOCTYPE Analyser [-->
+        <!--<!ELEMENT Analyser (points)>-->
+        <!--<!ELEMENT points (point)*>-->
+        <!--<!ELEMENT point (x, y)>-->
+        <!--<!ATTLIST point date CDATA #REQUIRED>-->
+        <!--<!ELEMENT x (#PCDATA)>-->
+        <!--<!ELEMENT y (#PCDATA)>-->
+        <!--]>-->
+
+
+<Analyser   xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+        xs:noNamespaceSchemaLocation="points.dtd">
 	<points>
 		<point date="19.03.2018">
 			<x>1.1</x>

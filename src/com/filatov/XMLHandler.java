@@ -16,6 +16,10 @@ public class XMLHandler extends DefaultHandler {
     private boolean workingWithX;
     private boolean workingWithY;
 
+    private double sumX, sumY, sumX2, sumXY, t;
+    private double k, b;
+    private int num;
+
     @Override
     public void startDocument() throws SAXException {
 //        System.out.println(">>> start document");
@@ -27,7 +31,11 @@ public class XMLHandler extends DefaultHandler {
     @Override
     public void endDocument() throws SAXException {
 //        System.out.println(">>> end document");
-//        super.endDocument();
+        num /= 2;
+        k = (sumXY - sumX * sumY / num) / (sumX2 - sumX * sumX / num);
+        b = sumY / num - k * sumX / num;
+        System.out.println("k: " + k + "\t" + "b: " + b);
+
     }
 
     @Override
@@ -37,21 +45,28 @@ public class XMLHandler extends DefaultHandler {
             tempDate = attributes.getValue(0);
 //            System.out.println(String.format(">>> attribute: %s value: %s", attributes.getLocalName(0), attributes.getValue(0)));
         }
-        if (qName.equals("x"))
+        if (qName.equals("x")) {
             workingWithX = true;
+        }
 
-        if (qName.equals("y"))
+        if (qName.equals("y")) {
             workingWithY = true;
+        }
     }
 
     @Override
     public void endElement(String uri, String localName, String qName) throws SAXException {
 //        System.out.println(">>> end element " + localName);
-        if (qName.equals("x"))
+        if (qName.equals("x")) {
             workingWithX = false;
+            num++;
+        }
 
-        if (qName.equals("y"))
+        if (qName.equals("y")) {
             workingWithY = false;
+            num++;
+            t = 0;
+        }
 
         if (qName.equals("point")) {
             points.add(new Point(tempX, tempY, tempDate));
@@ -66,10 +81,16 @@ public class XMLHandler extends DefaultHandler {
         String value = new String(ch, start, length);
         if (workingWithX) {
             tempX = Double.valueOf(value.trim());
+            sumX += tempX;
+            sumX2 += tempX*tempX;
+            t = tempX;
         }
 
         if (workingWithY) {
             tempY = Double.valueOf(value.trim());
+            sumY += tempY;
+            t = t * tempY;
+            sumXY += t;
         }
     }
 
