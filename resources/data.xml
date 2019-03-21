@@ -11,8 +11,8 @@
         <!--]>-->
 
 
-<Analyser xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
-          xs:noNamespaceSchemaLocation="points.xsd">
+<Analyser> <!--xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+          xs:noNamespaceSchemaLocation="points.xsd">-->
 	<points>
 		<point date="19.03.2018">
 			<x>1.1</x>

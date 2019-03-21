@@ -19,6 +19,8 @@ public class Point {
         return y;
     }
 
+    public String getDate(){ return date; }
+
     @Override
     public String toString() {
         return "x=" + x + " y=" + y + " date=" + date;
