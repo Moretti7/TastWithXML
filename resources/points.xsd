@@ -5,14 +5,14 @@
             <xs:sequence>
                 <xs:element name="points">
                     <xs:complexType>
-                        <xs:sequence>
-                            <xs:element maxOccurs="unbounded" name="point">
+                        <xs:sequence maxOccurs="unbounded">
+                            <xs:element name="point">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="x" type="xs:decimal"/>
+                                        <xs:element name="x" type="xs:decimal" />
                                         <xs:element name="y" type="xs:decimal"/>
                                     </xs:sequence>
-                                    <xs:attribute name="date" type="xs:string"/>
+                                    <xs:attribute name="date" type="xs:string" />
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>

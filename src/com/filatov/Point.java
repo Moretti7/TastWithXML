@@ -5,6 +5,9 @@ public class Point {
     private double y;
     private String date;
 
+    public Point() {
+    }
+
     public Point(double x, double y, String date){
         this.x = x;
         this.y = y;
@@ -20,6 +23,18 @@ public class Point {
     }
 
     public String getDate(){ return date; }
+
+    public void setX(double x) {
+        this.x = x;
+    }
+
+    public void setY(double y) {
+        this.y = y;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
+    }
 
     @Override
     public String toString() {

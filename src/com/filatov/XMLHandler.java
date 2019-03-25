@@ -1,13 +1,15 @@
 package com.filatov;
 
 import org.xml.sax.Attributes;
+import org.xml.sax.ErrorHandler;
 import org.xml.sax.SAXException;
+import org.xml.sax.SAXParseException;
 import org.xml.sax.helpers.DefaultHandler;
 
 import java.util.LinkedList;
 import java.util.List;
 
-public class XMLHandler extends DefaultHandler {
+public class XMLHandler extends DefaultHandler implements ErrorHandler {
     private List<Point> points;
     private double tempX;
     private double tempY;
@@ -94,6 +96,20 @@ public class XMLHandler extends DefaultHandler {
         }
     }
 
+    @Override
+    public void warning(SAXParseException e) throws SAXException {
+        throw e;
+    }
+
+    @Override
+    public void error(SAXParseException e) throws SAXException {
+        throw e;
+    }
+
+    @Override
+    public void fatalError(SAXParseException e) throws SAXException {
+        throw e;
+    }
 
     public List<Point> getPoints() {
         return points;

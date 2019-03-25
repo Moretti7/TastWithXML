@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!--<!DOCTYPE Analyser SYSTEM "resources\points.dtd">-->
+<!--<!DOCTYPE Analyser SYSTEM "resources/points.dtd">-->
 <!--<!DOCTYPE Analyser [-->
         <!--<!ELEMENT Analyser (points)>-->
         <!--<!ELEMENT points (point)*>-->
@@ -10,9 +10,9 @@
         <!--<!ELEMENT y (#PCDATA)>-->
         <!--]>-->
 
-
-<Analyser> <!--xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
-          xs:noNamespaceSchemaLocation="points.xsd">-->
+<!--<Analyser>-->
+<Analyser xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		  xsi:noNamespaceSchemaLocation="points.xsd">
 	<points>
 		<point date="19.03.2018">
 			<x>1.1</x>

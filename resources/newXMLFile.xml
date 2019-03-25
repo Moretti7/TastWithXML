@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--<!DOCTYPE Analyser SYSTEM "resources/points.dtd">--><!--<!DOCTYPE Analyser [--><!--<!ELEMENT Analyser (points)>--><!--<!ELEMENT points (point)*>--><!--<!ELEMENT point (x, y)>--><!--<!ATTLIST point date CDATA #REQUIRED>--><!--<!ELEMENT x (#PCDATA)>--><!--<!ELEMENT y (#PCDATA)>--><!--]>--><!--<Analyser>--><Analyser xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="points.xsd">
+    	
+    <points>
+        		
+		
+		
+		
+		
+		
+		
+	
+        <point date="20.03.2018">
+            			
+            <x>2.2</x>
+            			
+            <y>2.30</y>
+            		
+        </point>
+        <point date="21.03.2018">
+            			
+            <x>3.3</x>
+            			
+            <y>3.05</y>
+            		
+        </point>
+        <point date="4221.4221.4221">
+            			
+            <x>4221.0</x>
+            			
+            <y>4221.0</y>
+            		
+        </point>
+        <point date="23.03.2018">
+            			
+            <x>5.5</x>
+            			
+            <y>5.75</y>
+            		
+        </point>
+        <point date="4221.4221.4221">
+            <x>4221.0</x>
+            <y>4221.0</y>
+        </point>
+        <point date="24.03.2018">
+            			
+            <x>6.6</x>
+            			
+            <y>6.48</y>
+            		
+        </point>
+        <point date="25.03.2018">
+            			
+            <x>7.7</x>
+            			
+            <y>7.84</y>
+            		
+        </point>
+        <point date="4221.4221.4221">
+            <x>4221.0</x>
+            <y>4221.0</y>
+        </point>
+    </points>
+    
+</Analyser>

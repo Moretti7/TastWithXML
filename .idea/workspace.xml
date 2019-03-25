@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f9c692b-3f36-42d1-be19-25f6416fd45a" name="Default Changelist" comment="">
+    <list default="true" id="1f9c692b-3f36-42d1-be19-25f6416fd45a" name="Default Changelist" comment="added DOM, replace and adding new point into DOM">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/XML/com/filatov/DOM.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/XML/com/filatov/DOM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/XML/com/filatov/MainUsingXSD.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/XML/com/filatov/MainUsingXSD.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/XML/com/filatov/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/XML/com/filatov/Point.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/data.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/data.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/points.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/resources/points.xsd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/filatov/DOM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/filatov/DOM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/filatov/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/filatov/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/filatov/MainDOM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/filatov/MainDOM.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/filatov/MainUsingXSD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/filatov/MainUsingXSD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/filatov/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/filatov/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/filatov/XMLHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/filatov/XMLHandler.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,31 +25,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/filatov/MainUsingXSD.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/filatov/MainDOM.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/filatov/DOM.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="71" column="37" selection-start-line="71" selection-start-column="37" selection-end-line="71" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="280">
+              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -52,8 +36,93 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/data.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-40">
-              <caret line="18" column="19" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="19" />
+            <state relative-caret-position="300">
+              <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/filatov/DOM.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="331">
+              <caret line="184" lean-forward="true" selection-start-line="184" selection-end-line="184" />
+              <folding>
+                <element signature="method#DOM#0;class#DOM#0" />
+                <element signature="method#replace#0;class#DOM#0" />
+                <element signature="e#1879#2896#1" />
+                <element signature="e#2003#2886#1" />
+                <element signature="e#2404#2872#1" />
+                <element signature="method#addNewPoint#0;class#DOM#0" />
+                <element signature="e#2956#2979#0" />
+                <element signature="e#3195#3256#0" />
+                <element signature="method#insert#0;class#DOM#0" />
+                <element signature="e#4081#4140#1" />
+                <element signature="e#4315#4377#1" />
+                <element signature="e#4456#4512#1" />
+                <element signature="method#delete#0;class#DOM#0" />
+                <element signature="e#4931#5344#1" />
+                <element signature="e#5203#5334#1" />
+                <element signature="method#getData#0;class#DOM#0" />
+                <element signature="e#5715#5937#1" />
+                <element signature="method#creatPoint#0;class#DOM#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/filatov/Point.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding>
+                <element signature="method#Point#0;class#Point#0" />
+                <element signature="method#getDate#0;class#Point#0" />
+                <element signature="e#445#446#0" expanded="true" />
+                <element signature="e#471#472#0" expanded="true" />
+                <element signature="e#505#506#0" expanded="true" />
+                <element signature="e#531#532#0" expanded="true" />
+                <element signature="e#571#572#0" expanded="true" />
+                <element signature="e#603#604#0" expanded="true" />
+                <element signature="method#equals#0;class#Point#0" />
+                <element signature="method#hashCode#0;class#Point#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/filatov/FromSAXtoDOM.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="28" column="103" lean-forward="true" selection-start-line="28" selection-start-column="103" selection-end-line="28" selection-end-column="103" />
+              <folding>
+                <element signature="e#1203#1808#1" />
+                <element signature="n#!!block;n#getDocument#0;n#FromSAXtoDOM#0" />
+                <element signature="method#toXMLFile#0;class#FromSAXtoDOM#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/filatov/TestFromSAXtoXML.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/filatov/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="15" column="38" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="15" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,6 +136,12 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>xsd:attribute</find>
+      <find>&lt;xsd:element</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -75,17 +150,20 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/filatov/SAXParser.java" />
         <option value="$PROJECT_DIR$/src/com/filatov/XMLParser.java" />
-        <option value="$PROJECT_DIR$/src/com/filatov/XMLHandler.java" />
-        <option value="$PROJECT_DIR$/src/com/filatov/Main.java" />
         <option value="$PROJECT_DIR$/points.dtd" />
         <option value="$PROJECT_DIR$/resources/points.dtd" />
+        <option value="$PROJECT_DIR$/src/com/filatov/DOMTest.java" />
         <option value="$PROJECT_DIR$/src/com/filatov/Point.java" />
+        <option value="$PROJECT_DIR$/resources/delete_spring_beans_schema.xsd" />
         <option value="$PROJECT_DIR$/resources/points.xsd" />
         <option value="$PROJECT_DIR$/src/com/filatov/MainUsingXSD.java" />
-        <option value="$PROJECT_DIR$/src/com/filatov/DOMTest.java" />
+        <option value="$PROJECT_DIR$/src/com/filatov/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/filatov/XMLHandler.java" />
         <option value="$PROJECT_DIR$/resources/data.xml" />
-        <option value="$PROJECT_DIR$/src/com/filatov/DOM.java" />
         <option value="$PROJECT_DIR$/src/com/filatov/MainDOM.java" />
+        <option value="$PROJECT_DIR$/src/com/filatov/DOM.java" />
+        <option value="$PROJECT_DIR$/src/com/filatov/FromSAXtoDOM.java" />
+        <option value="$PROJECT_DIR$/src/com/filatov/TestFromSAXtoXML.java" />
       </list>
     </option>
   </component>
@@ -103,7 +181,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -132,18 +209,23 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553163720349" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553536762689" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\GAMES\CPP\Code\XML\resources" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.filatov" />
     </key>
@@ -163,7 +245,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainDOM">
+  <component name="RunManager" selected="Application.TestFromSAXtoXML">
     <configuration name="DOMTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.filatov.DOMTest" />
       <module name="XML" />
@@ -216,12 +298,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestFromSAXtoXML" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.filatov.TestFromSAXtoXML" />
+      <module name="XML" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.filatov.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestFromSAXtoXML" />
         <item itemvalue="Application.MainDOM" />
-        <item itemvalue="Application.DOMTest" />
-        <item itemvalue="Application.MainUsingXSD" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MainUsingXSD" />
+        <item itemvalue="Application.DOMTest" />
       </list>
     </recent_temporary>
   </component>
@@ -236,18 +332,29 @@
       <option name="presentableId" value="Default" />
       <updated>1553108707921</updated>
       <workItem from="1553108709745" duration="12526000" />
-      <workItem from="1553159922378" duration="3783000" />
+      <workItem from="1553159922378" duration="3872000" />
+      <workItem from="1553419610520" duration="8952000" />
+      <workItem from="1553457477908" duration="435000" />
+      <workItem from="1553529840388" duration="6732000" />
     </task>
+    <task id="LOCAL-00001" summary="added DOM, replace and adding new point into DOM">
+      <created>1553163792031</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1553163792031</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16309000" />
+    <option name="totallyTimeSpent" value="32517000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1076759" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1108742" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -256,8 +363,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -280,6 +387,22 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added DOM, replace and adding new point into DOM" />
+    <option name="LAST_COMMIT_MESSAGE" value="added DOM, replace and adding new point into DOM" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/filatov/DOM.java</url>
+          <line>183</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.xml/org/xml/sax/Attributes.java">
@@ -313,87 +436,223 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/filatov/Main.java">
+    <entry file="file://$PROJECT_DIR$/resources/employees.xml" />
+    <entry file="file://$PROJECT_DIR$/src/com/filatov/DOMTest.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.xml/org/w3c/dom/NodeList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="240">
+          <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.xml/org/w3c/dom/Element.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="60" column="17" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.xml/com/sun/org/apache/xerces/internal/util/ErrorHandlerWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="203" selection-start-line="203" selection-end-line="203" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.xml/javax/xml/XMLConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-160">
+          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#XMLConstants#0" />
+            <element signature="docComment;method#XMLConstants#0;class#XMLConstants#0" />
+            <element signature="method#XMLConstants#0;class#XMLConstants#0" />
+            <element signature="docComment;field#NULL_NS_URI#0;class#XMLConstants#0" />
+            <element signature="docComment;field#DEFAULT_NS_PREFIX#0;class#XMLConstants#0" />
+            <element signature="docComment;field#XML_NS_URI#0;class#XMLConstants#0" />
+            <element signature="docComment;field#XML_NS_PREFIX#0;class#XMLConstants#0" />
+            <element signature="docComment;field#XMLNS_ATTRIBUTE_NS_URI#0;class#XMLConstants#0" />
+            <element signature="docComment;field#XMLNS_ATTRIBUTE#0;class#XMLConstants#0" />
+            <element signature="docComment;field#W3C_XML_SCHEMA_NS_URI#0;class#XMLConstants#0" />
+            <element signature="docComment;field#W3C_XML_SCHEMA_INSTANCE_NS_URI#0;class#XMLConstants#0" />
+            <element signature="docComment;field#W3C_XPATH_DATATYPE_NS_URI#0;class#XMLConstants#0" />
+            <element signature="docComment;field#XML_DTD_NS_URI#0;class#XMLConstants#0" />
+            <element signature="docComment;field#RELAXNG_NS_URI#0;class#XMLConstants#0" />
+            <element signature="docComment;field#FEATURE_SECURE_PROCESSING#0;class#XMLConstants#0" />
+            <element signature="docComment;field#ACCESS_EXTERNAL_DTD#0;class#XMLConstants#0" />
+            <element signature="docComment;field#ACCESS_EXTERNAL_SCHEMA#0;class#XMLConstants#0" />
+            <element signature="docComment;field#ACCESS_EXTERNAL_STYLESHEET#0;class#XMLConstants#0" />
+            <element signature="docComment;field#USE_CATALOG#0;class#XMLConstants#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/points_backup.xsd">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/points.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="80" selection-start-line="12" selection-start-column="80" selection-end-line="12" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/delete_spring_beans_schema.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-340">
+          <caret line="123" column="16" selection-start-line="123" selection-start-column="4" selection-end-line="123" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/filatov/MainUsingXSD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="15" column="75" selection-start-line="15" selection-start-column="75" selection-end-line="15" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.xml/javax/xml/transform/Source.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.xml/org/xml/sax/ErrorHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="72" column="17" selection-start-line="72" selection-start-column="17" selection-end-line="72" selection-end-column="17" />
+          <folding>
+            <element signature="docComment;class#ErrorHandler#0" />
+            <element signature="docComment;method#warning#0;class#ErrorHandler#0" />
+            <element signature="docComment;method#error#0;class#ErrorHandler#0" />
+            <element signature="docComment;method#fatalError#0;class#ErrorHandler#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/filatov/XMLHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="85" column="22" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
+        <state relative-caret-position="531">
+          <caret line="117" lean-forward="true" selection-start-line="117" selection-end-line="117" />
+          <folding>
+            <element signature="method#startDocument#0;class#XMLHandler#0" />
+            <element signature="method#endDocument#0;class#XMLHandler#0" />
+            <element signature="method#startElement#0;class#XMLHandler#0" />
+            <element signature="e#1273#1463#1" />
+            <element signature="e#1495#1539#1" />
+            <element signature="e#1572#1616#1" />
+            <element signature="method#endElement#0;class#XMLHandler#0" />
+            <element signature="e#1824#1888#1" />
+            <element signature="e#1921#2004#1" />
+            <element signature="e#2041#2111#1" />
+            <element signature="method#characters#0;class#XMLHandler#0" />
+            <element signature="e#2373#2518#1" />
+            <element signature="e#2546#2685#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.xml/com/sun/org/apache/xalan/internal/xsltc/trax/TransformerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="918" selection-start-line="918" selection-end-line="918" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/filatov/MainDOM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/newXMLFile.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/filatov/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="38" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="15" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2729#2730#0" expanded="true" />
-            <element signature="e#2758#2759#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/filatov/Point.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+        <state relative-caret-position="40">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding>
-            <element signature="e#384#385#0" expanded="true" />
+            <element signature="method#Point#0;class#Point#0" />
+            <element signature="method#getDate#0;class#Point#0" />
             <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="method#equals#0;class#Point#0" />
+            <element signature="method#hashCode#0;class#Point#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/employees.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/filatov/DOMTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/points.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/data.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-40">
-          <caret line="18" column="19" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/filatov/MainUsingXSD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+        <state relative-caret-position="300">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/filatov/DOM.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="71" column="37" selection-start-line="71" selection-start-column="37" selection-end-line="71" selection-end-column="37" />
+        <state relative-caret-position="331">
+          <caret line="184" lean-forward="true" selection-start-line="184" selection-end-line="184" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#DOM#0;class#DOM#0" />
+            <element signature="method#replace#0;class#DOM#0" />
+            <element signature="e#1879#2896#1" />
+            <element signature="e#2003#2886#1" />
+            <element signature="e#2404#2872#1" />
+            <element signature="method#addNewPoint#0;class#DOM#0" />
+            <element signature="e#2956#2979#0" />
+            <element signature="e#3195#3256#0" />
+            <element signature="method#insert#0;class#DOM#0" />
+            <element signature="e#4081#4140#1" />
+            <element signature="e#4315#4377#1" />
+            <element signature="e#4456#4512#1" />
+            <element signature="method#delete#0;class#DOM#0" />
+            <element signature="e#4931#5344#1" />
+            <element signature="e#5203#5334#1" />
+            <element signature="method#getData#0;class#DOM#0" />
+            <element signature="e#5715#5937#1" />
+            <element signature="method#creatPoint#0;class#DOM#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/filatov/MainDOM.java">
+    <entry file="file://$PROJECT_DIR$/src/com/filatov/FromSAXtoDOM.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+        <state relative-caret-position="80">
+          <caret line="28" column="103" lean-forward="true" selection-start-line="28" selection-start-column="103" selection-end-line="28" selection-end-column="103" />
+          <folding>
+            <element signature="e#1203#1808#1" />
+            <element signature="n#!!block;n#getDocument#0;n#FromSAXtoDOM#0" />
+            <element signature="method#toXMLFile#0;class#FromSAXtoDOM#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/filatov/TestFromSAXtoXML.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
         </state>
       </provider>
     </entry>

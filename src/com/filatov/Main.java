@@ -8,6 +8,7 @@ public class Main {
     public static void main(String[] args) throws Exception {
         SAXParserFactory factory = SAXParserFactory.newInstance();
         factory.setValidating(true);
+
         SAXParser parser = factory.newSAXParser();
         XMLHandler xmlHandler = new XMLHandler();
         FileInputStream xml = new FileInputStream("resources/data.xml");
